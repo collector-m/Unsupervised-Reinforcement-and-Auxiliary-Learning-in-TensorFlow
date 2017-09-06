@@ -1,4 +1,4 @@
-# UNREAL
+# Unsupervised Reinforcement and Auxiliary Learning (UNREAL) in TensorFlow
 
 ## Citation
 ```
@@ -16,8 +16,7 @@
 
 ## About
 
-Replicating UNREAL algorithm described in Google Deep Mind's paper [Reinforcement learning with unsupervised auxiliary tasks]
-(https://arxiv.org/pdf/1611.05397.pdf)
+Replicating UNREAL algorithm described in Google Deep Mind's paper [Reinforcement learning with unsupervised auxiliary tasks](https://arxiv.org/pdf/1611.05397.pdf)
 
 Implemented with TensorFlow and DeepMind Lab environment.
 
