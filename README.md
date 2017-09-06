@@ -1,12 +1,23 @@
 # UNREAL
 
-[![CircleCI](https://circleci.com/gh/miyosuda/unreal.svg?style=svg)](https://circleci.com/gh/miyosuda/unreal)
+## Citation
+```
+@article{jaderberg2016reinforcement,
+  title={Reinforcement learning with unsupervised auxiliary tasks},
+  author={Jaderberg, Max and Mnih, Volodymyr and Czarnecki, Wojciech Marian and Schaul, Tom and Leibo, Joel Z and Silver, David and Kavukcuoglu, Koray},
+  journal={arXiv preprint arXiv:1611.05397},
+  year={2016}
+}
+```
+
+## Acknowlege
+[miyosuda/unreal](https://github.com/miyosuda/unreal)
+
 
 ## About
 
-Replicating UNREAL algorithm described in Google Deep Mind's paper "Reinforcement learning with unsupervised auxiliary tasks."
-
-https://arxiv.org/pdf/1611.05397.pdf
+Replicating UNREAL algorithm described in Google Deep Mind's paper [Reinforcement learning with unsupervised auxiliary tasks]
+(https://arxiv.org/pdf/1611.05397.pdf)
 
 Implemented with TensorFlow and DeepMind Lab environment.
 
@@ -53,13 +64,13 @@ First, dowload and install DeepMind Lab
 ```
 $ git clone https://github.com/deepmind/lab.git
 ```
-Then build it following the build instruction. 
-https://github.com/deepmind/lab/blob/master/docs/build.md
+Then build it following the [build instruction](https://github.com/deepmind/lab/blob/master/docs/build.md).
+
 
 Clone this repo in lab directory.
 ```
 $ cd lab
-$ git clone https://github.com/miyosuda/unreal.git
+$ git clone https://github.com/JiankaiSun-SJTU-MVIG-training/Unsupervised-Reinforcement-and-Auxiliary-Learning-in-TensorFlow.git
 ```
 Add this bazel instrution at the end of `lab/BUILD` file
 
