@@ -69,7 +69,7 @@ Then build it following the [build instruction](https://github.com/deepmind/lab/
 Clone this repo in lab directory.
 ```
 $ cd lab
-$ git clone https://github.com/JiankaiSun-SJTU-MVIG-training/Unsupervised-Reinforcement-and-Auxiliary-Learning-in-TensorFlow.git
+$ git clone https://github.com/Jiankai-Sun/Unsupervised-Reinforcement-and-Auxiliary-Learning-in-TensorFlow.git
 ```
 Add this bazel instrution at the end of `lab/BUILD` file
 
